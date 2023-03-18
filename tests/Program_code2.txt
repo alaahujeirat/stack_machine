@@ -1,0 +1,25 @@
+# hello there!
+	PUSH 100
+	PUSHIP $L12 # a comment to be ignored
+	PUSHIP $MUL_6
+	POPIP
+$L12:	PUSH 12
+	PUSHIP $SUM
+	PUSHIP $MUL_6
+	POPIP
+$SUM:	ADD
+	HLT
+$MUL_6: DUP
+	DUP
+	DUP
+	DUP # another comment to ignore
+	DUP
+	ADD
+	ADD
+	PUSHIP $L12
+	DROPIP
+	ADD
+	ADD
+	ADD
+	POPIP
+	HLT

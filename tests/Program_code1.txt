@@ -1,0 +1,14 @@
+# this is a test program
+PUSH
+5
+PUSH
+2
+STOR
+PUSH
+2
+LOAD
+NOP # a useless command..
+PUSH
+10
+ADD 
+# end of program yayyyy!

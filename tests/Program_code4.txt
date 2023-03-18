@@ -1,0 +1,9 @@
+PUSH
+10
+PUSH
+2
+ADD
+lol
+NOP
+:)
+NOT
